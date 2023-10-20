@@ -52,7 +52,7 @@ p {
   height:15vh;
   margin-bottom:-7px; /*Fix for safari gap*/
   min-height:100px;
-  max-height:250px;
+  max-height:150px;
 }
 
 .content {
@@ -168,30 +168,39 @@ a {
   border: 1px solid currentColor;
 }
 
-.btn-8 {
-  color: #c0c93c;
-}
-.btn-8:before, .btn-8:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #6d730f;
-}
-.btn-8:before {
-  transform: translateY(-100%);
-}
-.btn-8:after {
-  transform: translateY(100%);
-}
-.btn-8:hover {
-  color: #edefc6;
-}
-.btn-8:hover:before {
-  transform: translateY(-50%);
-}
-.btn-8:hover:after {
-  transform: translateY(50%);
-}
+.btn-11 {
+    position: relative;
+    color: #2c80c5;
+  }
+  .btn-11:before, .btn-11:after {
+    position: absolute;
+    top: 50%;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #0769bb;
+    border-radius: 50%;
+  }
+  .btn-11:before {
+    left: -20px;
+    transform: translate(-50%, -50%);
+  }
+  .btn-11:after {
+    right: -20px;
+    transform: translate(50%, -50%);
+  }
+  .btn-11:hover {
+    color: #c1daee;
+  }
+  .btn-11:hover:before {
+    -webkit-animation: criss-cross-left 0.8s both;
+            animation: criss-cross-left 0.8s both;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+  }
+  .btn-11:hover:after {
+    -webkit-animation: criss-cross-right 0.8s both;
+            animation: criss-cross-right 0.8s both;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+  }
