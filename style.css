@@ -169,8 +169,8 @@ a {
 }
 
 .btn-11 {
-    position: relative;
-    color: #2c80c5;
+    position: relative; 
+    color: #ffffff;
   }
   .btn-11:before, .btn-11:after {
     position: absolute;
@@ -178,7 +178,7 @@ a {
     content: "";
     width: 20px;
     height: 20px;
-    background-color: #0769bb;
+    background-color: #ffffff;
     border-radius: 50%;
   }
   .btn-11:before {
@@ -190,7 +190,7 @@ a {
     transform: translate(50%, -50%);
   }
   .btn-11:hover {
-    color: #c1daee;
+    color: #000000;
   }
   .btn-11:hover:before {
     -webkit-animation: criss-cross-left 0.8s both;
