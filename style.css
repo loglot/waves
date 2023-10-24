@@ -119,7 +119,6 @@ body{
 .container{
   width: 1000px;
   position: absolute;
-  top : 40px;
   display: flex;
   justify-content: space-between;
   flex-wrap:wrap;
