@@ -81,8 +81,17 @@ p {
 }
 .parallax > use:nth-child(4) {
   animation-delay: -5s;
-  animation-duration: 20s;
+  animation-duration: 16s;
 }
+.parallax > use:nth-child(5) {
+  animation-delay: -6s;
+  animation-duration: 19s;
+}
+.parallax > use:nth-child(6) {
+  animation-delay: -7s;
+  animation-duration: 30s;
+}
+
 @keyframes move-forever {
   0% {
    transform: translate3d(-90px,0,0);
