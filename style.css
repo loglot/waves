@@ -6,7 +6,7 @@
   top:0px;
   height: 100vh;
   width:  100vw;
-  background : #373737; 
+  background : rgba(75,75,75,1); 
 }
 
 body {
